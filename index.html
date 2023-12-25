@@ -44,6 +44,15 @@
       .animatedImage {
         animation: fadeIn 4s;
       }
+      .centerRow {
+        padding: 20px 0;
+        text-align: center;
+      }
+      .centeredImg {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
       @keyframes fadeIn {
         0% {
           opacity: 0;
@@ -55,7 +64,7 @@
     </style>
   </head>
   <body>
-    <table class="container">
+    <table class="container" width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td class="header">
           <h1>¡Feliz Navidad!</h1>
@@ -81,6 +90,11 @@
           </p>
           <p>Con amor,</p>
           <p>El Zami</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="centerRow">
+          <img class="centeredImg" src="https://i.giphy.com/H5Ooe4b04mkawWC8KN.webp" alt="Image Description">
         </td>
       </tr>
       <tr>
